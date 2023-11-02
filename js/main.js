@@ -130,8 +130,6 @@ function commandProcessor(e){
       document.getElementById('injected').innerHTML=skills();
     }else if (txtInput=="links") {
       document.getElementById('injected').innerHTML=links();
-    }/else if (txtInput == "credits") {
-      document.getElementById('injected').innerHTML=credits();
     }else{
       document.getElementById('injected').innerHTML = help();
     }
