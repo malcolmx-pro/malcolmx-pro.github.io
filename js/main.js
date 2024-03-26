@@ -24,7 +24,7 @@ function help(){
   </tr>\
   <tr>\
     <td>cv</td>\
-    <td>Download Malcolm's CV</td>\
+    <td>Download Malcolm's Resume</td>\
   </tr>\</table>";
 }
 
@@ -40,11 +40,11 @@ function contact(){
   </tr>\
   <tr>\
     <td>Address:</td>\
-    <td>K764/810 Katanga</td>\
+    <td>10 Langley Road</td>\
   </tr>\
   <tr>\
     <td> </td>\
-    <td>Norton</td>\
+    <td>Avondale, Harare</td>\
   </tr>\
   <tr>\
     <td> </td>\
@@ -89,11 +89,11 @@ function skills(){
 }
 
 function about(){
-  return "<p>Hi Everyone, I am Malcolm Nyamadzunzu from Norton, Zimbabwe. I am fluent in classics like JavaScript, C++ and a bit of Python. My field of interest's are building new Web Technologies and Products and also in areas related to Cybersecurity. Whenever possible, I also apply my passion for developing products with Node.js and Morden JavaScript Library and Frameworks like React.js and Next.js. I graduated with a Bachelor in Business Studies & Computing Science Honour Degree (HBSCT) at the University of Zimbabwe (UZ). I am a Software Developer as a freelancer and an open source contributor. Apart from coding, some other activities that I have to do are: playing darts, travelling, following tech news and also listening to music.</p>";
+  return "<p>Hi Everyone, I am Malcolm Nyamadzunzu from Harare, Zimbabwe. I am fluent in classics like JavaScript, C++ and a bit of Python. My field of interest's are building new Web Technologies and Products and also in areas related to Cybersecurity. Whenever possible, I also apply my passion for developing products with Node.js and Morden JavaScript Library and Frameworks like React.js and Next.js. I graduated with a Bachelor in Business Studies & Computing Science Honour Degree (HBSCT) at the University of Zimbabwe (UZ). I am a Software Developer as a freelancer and an open source contributor. Apart from coding, some other activities that I have to do are: playing darts, travelling, following tech news and also listening to music.</p>";
 }
 
 function cv(){
-  return "<span style=\"color:#8abeb7;\"><h2>CV:</h2></span><p>\tDownload from <a href=\"src/cv.pdf\" target=\"_blank\" style=\"text-decoration: underline;\">here</a>.</p>";
+  return "<span style=\"color:#8abeb7;\"><h2>CV:</h2></span><p>\tDownload from <a href=\"src/resume.pdf\" target=\"_blank\" style=\"text-decoration: underline;\">here</a>.</p>";
 }
 
 function links(){
